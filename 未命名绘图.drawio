@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="hd9s0j2kLOdoASeQEIdy">
-    <mxGraphModel dx="946" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,9 +21,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="utTdBH1L_UmAGy4cjj20-12" value="/real" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="utTdBH1L_UmAGy4cjj20-8">
+        <mxCell id="utTdBH1L_UmAGy4cjj20-12" value="/r_real/api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="utTdBH1L_UmAGy4cjj20-8">
           <mxGeometry x="0.5737" y="-2" relative="1" as="geometry">
-            <mxPoint x="-5" y="-2" as="offset" />
+            <mxPoint x="-15" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="utTdBH1L_UmAGy4cjj20-1" target="utTdBH1L_UmAGy4cjj20-17">
@@ -41,19 +41,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="utTdBH1L_UmAGy4cjj20-1" target="utTdBH1L_UmAGy4cjj20-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-31" value="/r_real" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="utTdBH1L_UmAGy4cjj20-29">
+          <mxGeometry x="0.6224" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-1" value="web(nginx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-3" value="zpb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="utTdBH1L_UmAGy4cjj20-7" value="real" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="utTdBH1L_UmAGy4cjj20-7" value="real后端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-10" value="&lt;div&gt;10.61.48.38:8081&lt;/div&gt;主要的转发节点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="455" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="utTdBH1L_UmAGy4cjj20-13" value="10.61.48.55&lt;div&gt;排班&lt;/div&gt;&lt;div&gt;端口：8081&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="utTdBH1L_UmAGy4cjj20-13" value="10.61.48.55&lt;div&gt;排班&lt;/div&gt;&lt;div&gt;端口：8180&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-15" value="10.61.48.55&lt;div&gt;排班&lt;/div&gt;&lt;div&gt;端口：18001&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -70,6 +82,38 @@
         </mxCell>
         <mxCell id="utTdBH1L_UmAGy4cjj20-23" value="10.61.48.56：8082&lt;div&gt;数据（redis）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="utTdBH1L_UmAGy4cjj20-24" target="utTdBH1L_UmAGy4cjj20-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-24" value="另一个front" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-32" value="real和zhunshi是前后端分离项目&lt;br&gt;且行里有要求项目代码不能部在web服务器上，包括前端代码&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;real按要求来但zhunshi暂时先放web上&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-119" width="310" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-33" value="10.61.48.55&lt;div&gt;real的front&lt;/div&gt;&lt;div&gt;端口：8081&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-36" value="/home/ap/iwm/module/frontend/ase_real_frontend/index.html" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+          <mxGeometry x="730" y="790" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-37" value="/home/ap/iwm/module/front/frontend/ase_zunshi_frontend/index.html" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="950" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="utTdBH1L_UmAGy4cjj20-1" target="utTdBH1L_UmAGy4cjj20-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="993" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="utTdBH1L_UmAGy4cjj20-39" value="/zunshi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="utTdBH1L_UmAGy4cjj20-38">
+          <mxGeometry x="0.6701" relative="1" as="geometry">
+            <mxPoint x="-70" y="-3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
