@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ziS0xtyJAW48Nl1vW03b-2" value="MessageEvent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="450" width="220" height="52" as="geometry">
+          <mxGeometry x="90" y="450" width="220" height="52" as="geometry">
             <mxRectangle x="200" y="360" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -55,14 +55,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziS0xtyJAW48Nl1vW03b-30" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziS0xtyJAW48Nl1vW03b-14">
+        <mxCell id="ziS0xtyJAW48Nl1vW03b-31" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziS0xtyJAW48Nl1vW03b-14">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="210" y="506" as="sourcePoint" />
+            <mxPoint x="200" y="500" as="sourcePoint" />
             <mxPoint x="490" y="650" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="194" y="520" />
-              <mxPoint x="200" y="520" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
